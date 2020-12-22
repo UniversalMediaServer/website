@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+	Options +SymLinksifOwnerMatch
+
+	RewriteEngine On
+
+	# Make sure the address has https://www at the start
+	RewriteCond %{SERVER_PORT} 80
+	RewriteCond %{REQUEST_URI} !^/plugins(.*)$
+	RewriteRule ^(.*)$ https://www.universalmediaserver.com/$1 [R,L]
+
+	RewriteCond %{http_host} ^universalmediaserver.com [NC]
+	RewriteRule ^(.*)$        http://www.universalmediaserver.com/$1 [r=301,NC]
+
+	RewriteRule ^rss/$                       /rss.php [L,QSA]
+	RewriteRule ^styles/pms/imageset/(.*)$   https://www.universalmediaserver.com/forum/styles/pms/imageset/$1   [L,QSA]
+</IfModule>
