@@ -118,7 +118,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="/assets/vendor/venobox/venobox.min.js"></script>
     <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="/assets/vendor/aos/aos.js"></script>
 
