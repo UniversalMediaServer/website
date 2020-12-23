@@ -116,7 +116,7 @@
 
     <!-- Vendor JS Files -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="/assets/vendor/php-email-form/validate.js"></script>
     <script src="/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
