@@ -185,7 +185,7 @@
       </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+    <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
