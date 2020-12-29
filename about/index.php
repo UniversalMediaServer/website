@@ -169,32 +169,8 @@
 						</div>
 					</div>
         </div>
-      </section><!-- End About Us Section -->
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container footer-bottom clearfix">
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-    </footer><!-- End Footer -->
-
-    <a href="#" class="back-to-top"><i class="icofont-arrow-up"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="/assets/vendor/aos/aos.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="/assets/js/main.js"></script>
+      </section>
+		</main>
+    <?php include '../includes/footer.php'; ?>
   </body>
 </html>
