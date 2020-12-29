@@ -190,7 +190,7 @@
                 printf("Database connection failed. Not displaying News content: %s\n", mysqli_connect_error());
               } else {
                 // Populate news
-                $query  = "SELECT topic_id, topic_title, topic_time FROM cS8856_topics WHERE forum_id=3 AND topic_id != 378 ORDER BY topic_time DESC LIMIT 4";
+                $query = "SELECT topic_id, topic_title, topic_time FROM cS8856_topics WHERE forum_id=3 AND topic_id != 378 ORDER BY topic_time DESC LIMIT 4";
                 if ($result = mysqli_query($link, $query)) {
                   while ($list = mysqli_fetch_assoc($result)) {
                     $date = date("Y/m/d", $list['topic_time']);
@@ -205,8 +205,8 @@
                   }
                   mysqli_free_result($result);
                 }
+                mysqli_close($link);
               }
-              mysqli_close($link);
             ?>
           </div>
         </div>
