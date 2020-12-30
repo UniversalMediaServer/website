@@ -12,7 +12,7 @@
     <section id="hero" class="d-flex align-items-center home-page">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
             <h1>Universal Media Server</h1>
             <h2>Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!</h2>
             <div class="d-lg">
@@ -42,7 +42,7 @@
       <!-- ======= Cliens Section ======= -->
       <section id="cliens" class="cliens section-bg">
         <div class="container">
-          <div class="row" data-aos="zoom-in">
+          <div class="row">
             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
             </div>
@@ -148,7 +148,7 @@
         </div><!--//container-->
       </section>
       <section id="about" class="about section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="section-title">
             <h2>About Us</h2>
           </div>
@@ -174,7 +174,7 @@
         </div>
       </section>
       <section id="news" class="services">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="section-title">
             <h2>News</h2>
           </div>

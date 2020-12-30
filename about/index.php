@@ -9,7 +9,7 @@
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+          <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
             <h1>About</h1>
 						<?php if (!isset($_COOKIE['phpbb3_ra3cc_u']) || $_COOKIE['phpbb3_ra3cc_u'] == "1") { ?>
 							<div id="Advertisement">
@@ -31,7 +31,7 @@
     </section>
     <main id="main">
 			<section id="about" class="about section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
           <div class="row content">
             <div class="col-lg-12">
 							<h2>General</h2>
