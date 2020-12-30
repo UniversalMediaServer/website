@@ -1,0 +1,213 @@
+/* General */
+
+html {
+	height:			100%;
+}
+
+body {
+	font-family:		"lucida grande",tahoma,verdana,arial,sans-serif;
+	color:			#333;
+	padding:		0;
+}
+
+body#phpbb {
+	background-image:	none;
+}
+
+h1 {
+	display:		none;
+}
+
+h2 {
+	font-family:		Arial, Verdana, Tahoma, sans-serif;
+	color:			#5a5a5a;
+	font-size:		150%;
+	margin-bottom:		10px;
+}
+
+em {
+	font-style:		italic;
+}
+
+a {
+	color: #105289;
+}
+
+/* Scaffolding */
+
+#ContentPage #Container {
+	position:		relative;
+}
+
+#ContentPage #Menu {
+	background:		url('../../../../images/menu-background-content.png');
+	background-repeat:	repeat-x;
+	height:			95px;
+}
+
+#RenderersContainer {
+	float:			right;
+	margin-left:		10px;
+}
+
+/* Menu */
+
+#phpbb #header {
+  background-color: #2a3e60;
+  padding: 15px;
+}
+
+#phpbb nav {
+  display: inline-block;
+}
+
+#ContentPage #Menu {
+	font-family:"Source Sans Pro","lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:16px;
+}
+
+#ContentPage #Menu > a {
+	display:block;
+	background:url('../../../../images/menu-left-content.png');
+	width:125px;
+	height:93px;
+}
+
+#ContentPage #Menu a,
+#ContentPage #Menu > ul {
+	float: left;
+}
+
+#ContentPage #Menu > ul {
+	margin-left: 20px;
+}
+
+#ContentPage #Menu ul li {
+	display: inline-block;
+}
+
+#ContentPage #Menu > ul > li > a {
+	font-size: 150%;
+	margin: 30px 0 0 20px;
+}
+
+#ContentPage #Menu ul a {
+	font-weight: 300;
+	color: #b5b5b5;
+	text-decoration: none;
+}
+
+#ContentPage #Menu ul a:hover {
+	color: #eee;
+}
+
+#ContentPage #Menu ul li ul {
+	display: none;
+	position: absolute;
+	top: 62px;
+}
+
+#ContentPage #Menu ul li ul li:first-child a {
+	margin: 0 0 0 20px;
+}
+
+#ContentPage #Menu ul li ul a {
+	margin: 0 0 0 12px;
+}
+
+/* Content Area */
+
+#ContentArea {
+	position:		relative;
+	padding:		20px 50px 0 40px;
+	font-size:		14px;
+}
+
+#ContentArea p {
+	margin-bottom:		5px;
+}
+
+#RenderersContainer ul {
+	margin:			0 0 0 5px;
+	padding-left:		10px;
+	float:			left;
+	list-style-type:	disc;
+}
+
+#RenderersContainer ul.left {
+	margin:			0 20px 0 5px;
+}
+
+#RenderersContainer ul li {
+	font-size:		13px;
+}
+
+/* Forum */
+
+#page-header .headerbar .inner .corners-top,
+#page-header .headerbar .inner #site-description,
+#page-header .headerbar .inner .corners-bottom {
+	display:		none;
+}
+
+#page-body,
+#page-footer {
+	padding:		0 20px;
+}
+
+#wrap {
+	margin-top: 10px;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+#search-box {
+	position: absolute;
+	right: 22px;
+	top: 0;
+}
+
+#phpbb h2 {
+	text-transform:		none;
+}
+
+#InputContainerUsername {
+	display:		none;
+}
+
+#page-header .navbar {
+	background: url('/images/background-blank.jpg');
+	padding: 0 20px;
+	border-radius: 0;
+}
+
+#page-header .navbar a {
+	color: #333;
+}
+
+#page-header .navbar span.corners-top span,
+#page-header .navbar span.corners-bottom span,
+#page-header .navbar span.corners-bottom,
+#page-header .navbar span.corners-top {
+	background: none;
+}
+
+#page-header div.headerbar {
+	margin: 0;
+	padding: 0;
+	background: none;
+	height: 0;
+}
+
+#page-body {
+	margin-top: 20px;
+}
+
+.time {
+	display:none;
+}
+
+.search-header {
+	margin: 22px 0 22px 22px;
+}
