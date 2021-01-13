@@ -14,7 +14,9 @@
             <h1>Download</h1>
             <div class="d-lg">
               <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
-              <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+              <?php if ($umsVersionBeta) { ?>
+                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+              <?php } ?>
             </div>
             <?php if (!isset($_COOKIE['phpbb3_ra3cc_u']) || $_COOKIE['phpbb3_ra3cc_u'] == "1") { ?>
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -39,30 +41,30 @@
           <div class="tabbed-area row">
             <!-- Nav tabs -->
             <div class="feature-nav nav nav-pill flex-column col-lg-4 col-md-6 col-12 order-0 order-md-1" role="tablist" aria-orientation="vertical">
-              <a class="btn mb-lg-3 active" href="#feature-1" aria-controls="feature-1" data-toggle="pill" role="tab" aria-selected="false">
+              <a class="btn mb-lg-3 active" href="#windows" aria-controls="windows" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="icofont-brand-windows"></i>&nbsp;&nbsp;Windows
               </a>
-              <a class="btn mb-lg-3" href="#renderers" aria-controls="renderers" data-toggle="pill" role="tab" aria-selected="false">
+              <a class="btn mb-lg-3" href="#macos" aria-controls="macos" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="icofont-brand-apple"></i>&nbsp;&nbsp;macOS
               </a>
-              <a class="btn mb-lg-3" href="#metadata" aria-controls="metadata" data-toggle="pill" role="tab" aria-selected="false">
+              <a class="btn mb-lg-3" href="#linux" aria-controls="linux" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="icofont-brand-linux"></i>&nbsp;&nbsp;Linux
               </a>
-              <a class="btn mb-lg-3" href="#online-media" aria-controls="online-media" data-toggle="pill" role="tab" aria-selected="false">
+              <a class="btn mb-lg-3" href="#docker" aria-controls="docker" data-toggle="pill" role="tab" aria-selected="false">
                 <img src="/assets/img/docker.png" style="width:16px;height:16px;"/>&nbsp;&nbsp;Docker
               </a>
             </div>
             
             <!-- Tab panes -->
             <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
-              <div role="tabpanel" class="tab-pane fade active show" id="feature-1">
+              <div role="tabpanel" class="tab-pane fade active show" id="windows">
                 <h2>Windows installer<?php if ($umsVersionBeta) { echo 's'; } ?></h2>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
                 <?php if ($umsVersionBeta) { ?>
                   <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
                 <?php } ?>
               </div>
-              <div role="tabpanel" class="tab-pane fade" id="renderers">
+              <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
                 <h4>Disk images: (recommended for most users)</h4>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS 10.15+</a></p>
@@ -74,7 +76,7 @@
                 <h4>Homebrew</h4>
                 <p>Run <a href="https://formulae.brew.sh/cask/universal-media-server">brew cask install universal-media-server</a></p>
               </div>
-              <div role="tabpanel" class="tab-pane fade" id="metadata">
+              <div role="tabpanel" class="tab-pane fade" id="linux">
                 <h2>Linux tarballs</h2>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-x86_64.tgz">Download <?php echo $umsVersion; ?> for Linux (x86_64)</a></p>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-x86.tgz">Download <?php echo $umsVersion; ?> for Linux (x86)</a></p>
@@ -89,7 +91,7 @@
                   <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-armel.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm/armel)</a></p>
                 <?php } ?>
               </div>
-              <div role="tabpanel" class="tab-pane fade" id="online-media">
+              <div role="tabpanel" class="tab-pane fade" id="docker">
                 <h3>Docker</h3>
                 <p>Run <a href="https://hub.docker.com/r/universalmediaserver/ums">docker pull universalmediaserver/ums</a></p>
               </div>
