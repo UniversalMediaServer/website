@@ -638,6 +638,34 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Comparison
+--------------------------------------------------------------*/
+
+.table .yes {
+  background-color: hsl(100deg 51% 83%);
+}
+
+.table .no {
+  background-color: hsl(0deg 100% 86%);
+}
+
+.table .partial {
+  background-color: hsl(47deg 81% 83%);
+}
+
+.table-hover tbody tr:hover .yes {
+  background-color: hsl(100deg 70% 71%);
+}
+
+.table-hover tbody tr:hover .no {
+  background-color: hsl(0deg 100% 77%);
+}
+
+.table-hover tbody tr:hover .partial {
+  background-color: hsl(47deg 100% 74%);
+}
+
+/*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
 
