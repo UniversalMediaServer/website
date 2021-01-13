@@ -52,7 +52,7 @@
           <div class="row content">
             <div class="col-lg-12">
 							<p>It was originally based on PS3 Media Server by shagrath, and started by SubJunk, an official developer of PMS, in order to ensure greater stability and file-compatibility.</p>
-							<!-- <p>To see a comparison of popular media servers, <a href="/comparison/" title="Comparison of Media Servers">click here</a></p> -->
+							<p>If you are interested in seeing how we compare to similar projects, see our <a href="/comparison/">comparison of popular media servers</a>.</p>
 							<p>If you would like to donate to the project, which helps offset our server hosting and coffee-related costs, you can use the following button:<br>
 							<a rel="nofollow" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KZLD5J8DS6K6W"><img src="../images/btn_donateCC_LG.gif" border="0" /></a></p><br>
 						</div>
