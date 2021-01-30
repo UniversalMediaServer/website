@@ -78,6 +78,9 @@
               <a class="btn mb-lg-3 active" href="#feature-1" aria-controls="feature-1" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="fas fa-magic mr-2"></i>Beautiful web interface
               </a>
+              <a class="btn mb-lg-3" href="#privacy" aria-controls="privacy" data-toggle="pill" role="tab" aria-selected="false">
+                <i class="fas fa-magic mr-2"></i>Total privacy
+              </a>
               <a class="btn mb-lg-3" href="#renderers" aria-controls="renderers" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="fas fa-magic mr-2"></i>Huge selection of supported devices
               </a>
@@ -105,6 +108,13 @@
                 <p>
                   Connect to your media using any web browser on any device for a feature-rich dive into dynamic pages for every media file you have.
                   Play directly from the browser, or send to your devices.
+                </p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="privacy">
+                <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/pexels-burst-374103.jpg)"></div></div>
+                <p>
+                  We do not track <strong>any</strong> actions you take in the program. How many other media servers can claim that?
+                  Your server is as secure as your home network, and all external requests are made via secure connections.
                 </p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="renderers">
