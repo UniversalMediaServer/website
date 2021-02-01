@@ -192,6 +192,7 @@
           </div>
           <div class="row">
             <?php
+              include "cache_start.php";
               // Connect to database
               $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
               if (mysqli_connect_errno()) {
@@ -215,6 +216,7 @@
                 }
                 mysqli_close($link);
               }
+              include "cache_end.php";
             ?>
           </div>
         </div>
