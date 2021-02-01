@@ -1,4 +1,7 @@
-<?php include 'includes/config.php'; ?>
+<?php
+  include "cache_start.php";
+  include 'includes/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -192,7 +195,6 @@
           </div>
           <div class="row">
             <?php
-              include "cache_start.php";
               // Connect to database
               $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
               if (mysqli_connect_errno()) {
@@ -216,7 +218,6 @@
                 }
                 mysqli_close($link);
               }
-              include "cache_end.php";
             ?>
           </div>
         </div>
@@ -225,3 +226,4 @@
     <?php include 'includes/footer.php'; ?>
   </body>
 </html>
+<?php include "cache_end.php"; ?>
