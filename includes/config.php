@@ -4,6 +4,6 @@
   $dbuser = "";
   $dbpass = "";
 
-  $umsVersion     = "10.0.0";
+  $umsVersion     = "10.0.1";
   $umsVersionBeta = "";
 ?>

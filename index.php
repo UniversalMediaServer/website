@@ -1,4 +1,7 @@
-<?php include 'includes/config.php'; ?>
+<?php
+  include "cache_start.php";
+  include 'includes/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -223,3 +226,4 @@
     <?php include 'includes/footer.php'; ?>
   </body>
 </html>
+<?php include "cache_end.php"; ?>
