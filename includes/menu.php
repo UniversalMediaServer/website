@@ -11,8 +11,9 @@
         <li class="drop-down">
           <a href="">Support</a>
           <ul>
-            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/wiki">Documentation</a></li>
+            <li><a href="https://support.universalmediaserver.com">Knowledge base</a></li>
             <li><a href="/forum/">Forum</a></li>
+            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues">Bug report</a></li>
             <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KZLD5J8DS6K6W">Donate</a></li>
           </ul>
         </li>
