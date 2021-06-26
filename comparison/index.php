@@ -5,32 +5,30 @@
     <?php include '../includes/head.php'; ?>
   </head>
   <body>
-	<?php include '../includes/menu.php'; ?>
+    <?php include '../includes/menu.php'; ?>
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
             <h1>Comparison of Media Servers</h1>
-            <?php if (!isset($_COOKIE['phpbb3_ra3cc_u']) || $_COOKIE['phpbb3_ra3cc_u'] == "1") { ?>
-                <div id="Advertisement">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- UMS Comparison Top -->
-                    <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-3418498412982536"
-                        data-ad-slot="6342836904"
-                        data-ad-format="auto"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-            <?php } ?>
+            <div class="ad-container">
+              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <!-- UMS Comparison Top -->
+              <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-3418498412982536"
+                data-ad-slot="6342836904"
+                data-ad-format="auto"></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <main id="main">
-		<section id="about" class="about section-bg">
+        <section id="about" class="about section-bg">
         <div class="container">
           <div class="row content">
             <div class="col-lg-12">
