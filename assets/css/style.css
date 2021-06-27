@@ -1,5 +1,5 @@
 /**
-* Template Name: Arsha - v2.2.1
+* Template Name: Arsha - v2.3.1
 * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -563,12 +563,10 @@ section {
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  -webkit-filter: grayscale(100);
   filter: grayscale(100);
 }
 
 .cliens img:hover {
-  -webkit-filter: none;
   filter: none;
   transform: scale(1.1);
 }
