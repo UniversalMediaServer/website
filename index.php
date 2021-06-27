@@ -16,28 +16,30 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
-            <h1>Universal Media Server</h1>
-            <h2>Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!</h2>
-            <div class="d-lg">
-              <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
-              <?php if ($umsVersionBeta) { ?>
-                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
-              <?php } ?>
-              <a href="/download/" class="btn-watch-video"> Other downloads <i class="icofont-download"></i></a>
+            <div style="margin: 0 auto;max-width: 900px;">
+              <h1>Universal Media Server</h1>
+              <h2>Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!</h2>
+              <div class="d-lg">
+                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
+                <?php if ($umsVersionBeta) { ?>
+                  <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+                <?php } ?>
+                <a href="/download/" class="btn-watch-video"> Other downloads <i class="icofont-download"></i></a>
+              </div>
+              <div class="ad-container">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- UMS Front -->
+                <ins class="adsbygoogle"
+                    style="display:block;margin-top:25px;"
+                    data-ad-client="ca-pub-3418498412982536"
+                    data-ad-slot="1452480239"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+              </div>
             </div>
-            <?php if (!isset($_COOKIE['phpbb3_ra3cc_u']) || $_COOKIE['phpbb3_ra3cc_u'] == "1") { ?>
-              <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-              <!-- UMS Front -->
-              <ins class="adsbygoogle"
-                  style="display:block;margin-top:25px;"
-                  data-ad-client="ca-pub-3418498412982536"
-                  data-ad-slot="1452480239"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"></ins>
-              <script>
-                  (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
-            <?php } ?>
           </div>
         </div>
       </div>
@@ -183,7 +185,7 @@
               <p>
                 It is powered by <a href="https://www.ffmpeg.org/" rel="nofollow">FFmpeg</a>, <a href="https://mediaarea.net/en/MediaInfo" rel="nofollow">MediaInfo</a>, <a href="https://www.opensubtitles.org/" rel="nofollow">OpenSubtitles</a>, <a href="https://crowdin.com/" rel="nofollow">Crowdin</a>, <a href="http://www.mplayerhq.hu/" rel="nofollow">MEncoder</a>, tsMuxeR, AviSynth, VLC and more, which combine to offer support for a wide range of media formats.
               </p>
-              <a href="/about/" class="btn-learn-more">Learn More</a>
+              <a href="/about/" class="btn-link">Learn More</a>
             </div>
           </div>
         </div>
@@ -219,6 +221,7 @@
                 mysqli_close($link);
               }
             ?>
+            <a href="/news/" class="btn-link mx-auto">See older news</a>
           </div>
         </div>
       </section>

@@ -18,11 +18,11 @@
                 <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
               <?php } ?>
             </div>
-            <?php if (!isset($_COOKIE['phpbb3_ra3cc_u']) || $_COOKIE['phpbb3_ra3cc_u'] == "1") { ?>
+            <div class="ad-container">
               <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
               <!-- UMS Downloads -->
               <ins class="adsbygoogle"
-                  style="display:block;margin-top:25px;"
+                  style="display:block"
                   data-ad-client="ca-pub-3418498412982536"
                   data-ad-slot="5871244361"
                   data-ad-format="auto"
@@ -30,7 +30,7 @@
               <script>
                   (adsbygoogle = window.adsbygoogle || []).push({});
               </script>
-            <?php } ?>
+            </div>
           </div>
         </div>
       </div>
