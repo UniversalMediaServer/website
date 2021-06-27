@@ -62,6 +62,8 @@
           defaultLinuxArchitecture = 'x86_64';
         } else if (CPU === 'arm64') {
           defaultLinuxArchitecture = 'arm64';
+        } else if (CPU === 'armhf') {
+          defaultLinuxArchitecture = 'armhf';
         } else if (CPU === 'arm') {
           defaultLinuxArchitecture = 'armel';
         }
