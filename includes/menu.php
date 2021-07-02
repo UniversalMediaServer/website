@@ -27,6 +27,6 @@
       </ul>
     </nav>
 
-    <a href="/download/" class="get-started-btn scrollto<?php if ($currentPage == "download") { echo " active"; } ?>">Download</a>
+    <a href="/download/" class="get-started-btn scrollto">Download</a>
   </div>
 </header>
