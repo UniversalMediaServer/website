@@ -48,7 +48,7 @@
           </div>
           <div class="row content">
             <div class="col-lg-12">
-              <h2>Cryptocurrency</h2>
+              <h2 id="cryptocurrency">Cryptocurrency</h2>
               <p>We gladly accept donations in the following cryptocurrencies:</p>
               <p>Cardano (ADA): <code>addr1qx8g9nkln6zr4gs5f0r3ysnxgpqum4ekwnt5e77jaglzkensdvxfplz7lr8pg07kcvjpnrfcxzkht3hgmkr86vclmaxqjhja8c</code></p>
               <p>If you would like to donate a cryptocurrency that is not on this page, please let us know and we will provide the details.</p><br>
