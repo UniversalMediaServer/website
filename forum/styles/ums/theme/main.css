@@ -165,7 +165,8 @@ a {
 #search-box {
 	position: absolute;
 	right: 22px;
-	top: 0;
+	top: 81px;
+	box-shadow: none !important;
 }
 
 #phpbb h2 {
