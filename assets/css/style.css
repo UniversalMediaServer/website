@@ -178,12 +178,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #0c3c53;
 }
 
-.nav-menu .drop-down ul a > * {
+.nav-menu .drop-down ul a i.bx {
+  margin: 0px 5px 3px 0;
   vertical-align: middle;
-}
-
-.nav-menu .drop-down ul a box-icon {
-  margin: 0px 5px 1px 0;
+  font-size: 150%;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
