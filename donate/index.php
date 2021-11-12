@@ -12,6 +12,19 @@
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
             <h1>Donate</h1>
+            <div id="donate-button-quick"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'KZLD5J8DS6K6W',
+            image: {
+            src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+            alt:'Donate with PayPal button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button-quick');
+            </script>
           </div>
         </div>
       </div>
@@ -21,6 +34,7 @@
         <div class="container">
           <div class="row content">
             <div class="col-lg-12">
+              <p>To quickly donate, please use the button above, otherwise there are more options below.</p>
               <p>Your contribution goes towards offsetting the costs of our web servers - which serve over 240 million requests per month to 160,000 unique users - as well as provide reward and incentive to the development team to continue to improve our products.</p>
               <p>We support 4 donation methods in an attempt to make it easier for you to use something you are familiar with. If you would like to donate using another method, please get in touch with us.</p>
               <p><em>Thank</em> you in advance for any contribution.</p><br>
@@ -37,7 +51,23 @@
             <div class="col-lg-12">
               <h2>PayPal</h2>
               <p>PayPal makes it easy to donate quickly via credit card with no account signup required. Please use the following button:<p>
-              <p><a rel="nofollow" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KZLD5J8DS6K6W"><img src="../images/btn_donateCC_LG.gif" border="0" /></a></p><br>
+              <p>
+                <div id="donate-button-container">
+                  <div id="donate-button"></div>
+                  <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                  <script>
+                  PayPal.Donation.Button({
+                  env:'production',
+                  hosted_button_id:'KZLD5J8DS6K6W',
+                  image: {
+                  src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                  alt:'Donate with PayPal button',
+                  title:'PayPal - The safer, easier way to pay online!',
+                  }
+                  }).render('#donate-button');
+                  </script>
+                </div>
+              </p><br>
             </div>
           </div>
           <div class="row content">
