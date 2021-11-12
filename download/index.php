@@ -51,7 +51,7 @@
                 <i class="icofont-brand-linux"></i>&nbsp;&nbsp;Linux
               </a>
               <a class="btn mb-lg-3" href="#docker" aria-controls="docker" data-toggle="pill" role="tab" aria-selected="false">
-                <box-icon name='docker' type='logo'></box-icon>&nbsp;&nbsp;Docker
+                <i class='bx bxl-docker'></i>&nbsp;&nbsp;Docker
               </a>
             </div>
             
