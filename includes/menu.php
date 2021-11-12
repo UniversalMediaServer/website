@@ -11,7 +11,7 @@
         <li class="drop-down">
           <a href="">Support</a>
           <ul>
-            <li><a href="https://support.universalmediaserver.com"><box-icon name="file-doc"></box-icon> Knowledge base</a></li>
+            <li><a href="https://support.universalmediaserver.com"><box-icon type='solid' name='book'></box-icon> Knowledge base</a></li>
             <li><a href="/forum/"><box-icon name="support"></box-icon> Forum</a></li>
             <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues"><box-icon name="bug"></box-icon> Bug report</a></li>
           </ul>
@@ -19,7 +19,7 @@
         <li class="drop-down">
           <a href="">Contribute</a>
           <ul>
-            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/"><box-icon name="github"></box-icon> Code</a></li>
+            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/"><box-icon type='logo' name='github'></box-icon> Code</a></li>
             <li><a href="https://crowdin.com/project/universalmediaserver"><box-icon name="world"></box-icon> Translate</a></li>
             <li><a href="/donate/"><box-icon name="donate-heart"></box-icon> Donate</a></li>
           </ul>
