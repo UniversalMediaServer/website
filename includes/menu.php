@@ -11,19 +11,20 @@
         <li class="drop-down">
           <a href="">Support</a>
           <ul>
-            <li><a href="https://support.universalmediaserver.com">Knowledge base</a></li>
-            <li><a href="/forum/">Forum</a></li>
-            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues">Bug report</a></li>
-            <li><a href="/donate/">Donate</a></li>
+            <li><a href="https://support.universalmediaserver.com"><i class='bx bx-book'></i> Knowledge base</a></li>
+            <li><a href="/forum/"><i class='bx bx-support'></i> Forum</a></li>
+            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/issues"><i class='bx bx-bug'></i> Bug report</a></li>
           </ul>
         </li>
         <li class="drop-down">
           <a href="">Contribute</a>
           <ul>
-            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/">Code</a></li>
-            <li><a href="https://crowdin.com/project/universalmediaserver">Translations</a></li>
+            <li><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/"><i class='bx bxl-github'></i> Code</a></li>
+            <li><a href="https://crowdin.com/project/universalmediaserver"><i class='bx bx-world'></i> Translate</a></li>
+            <li><a href="/donate/"><i class='bx bx-donate-heart'></i> Donate</a></li>
           </ul>
         </li>
+        <li><a href="/donate/">Donate</a></li>
       </ul>
     </nav>
 

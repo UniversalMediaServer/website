@@ -13,8 +13,8 @@
 <!-- Vendor CSS Files -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-<link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 <link href="/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
 <!-- Template Main CSS File -->
 <link href="/assets/css/style.css" rel="stylesheet">
