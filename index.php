@@ -31,23 +31,27 @@
                       </div>
                       <div class="modal-body">
                         <p>This download is free but we accept your support by letting you pay what you think is fair.</p>
-                        <div id="donate-button-quick"></div>
-                        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-                        <script>
-                        PayPal.Donation.Button({
-                        env:'production',
-                        hosted_button_id:'KZLD5J8DS6K6W',
-                        image: {
-                        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-                        alt:'Donate with PayPal button',
-                        title:'PayPal - The safer, easier way to pay online!',
-                        }
-                        }).render('#donate-button-quick');
-                        </script>
-                        <a href="https://www.patreon.com/bePatron?u=34420953" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                        <p>
+                          <div id="donate-button-quick"></div>
+                          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                          <script>
+                          PayPal.Donation.Button({
+                          env:'production',
+                          hosted_button_id:'KZLD5J8DS6K6W',
+                          image: {
+                          src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                          alt:'Donate with PayPal button',
+                          title:'PayPal - The safer, easier way to pay online!',
+                          }
+                          }).render('#donate-button-quick');
+                          </script>
+                        </p>
+                        <p>
+                          <div class="fpvra8-0 kTEgrX"><a class="sc-bBrOnJ jwGkQA" color="primary" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank" rel="noopener noreferrer"><div tabindex="-1" class="sc-jNMdTA jLYHuC"><svg aria-label="Loading" viewBox="0 0 64 64" class="sc-hBEYos tJRfY"><circle cx="32" cy="32" r="32" class="sc-fodVxV ckHrzE"></circle><circle color="light" cx="32" cy="32" r="32" stroke-linecap="round" class="sc-fFubgz eezCAG"></circle></svg></div><div class="sc-cTkwdZ cEwkgS"><div class="sc-crrsfI ejVMUJ"><span class="sc-iqHYGH hKKQNb"><svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg></span></div><div class="sc-dOSReg Vdljc"></div>Become a patron</div></a></div>
+                        </p>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a type="button" class="btn btn-secondary" href="/download/" class="btn-watch-video">All Downloads</a>
                         <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download</a>
                         <?php if ($umsVersionBeta) { ?>
                           <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
@@ -56,8 +60,7 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal">Download</button>
-                <a href="/download/" class="btn-watch-video"> Other downloads <i class="icofont-download"></i></a>
+                <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal"> Download Now <i class="icofont-download"></i></button>
               </div>
               <div class="ad-container">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
