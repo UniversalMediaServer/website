@@ -20,10 +20,43 @@
               <h1>Universal Media Server</h1>
               <h2>Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!</h2>
               <div class="d-lg">
-                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
-                <?php if ($umsVersionBeta) { ?>
-                  <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
-                <?php } ?>
+                <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="downloadModalLabel">Download</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>This download is free but we accept your support by letting you pay what you think is fair.</p>
+                        <div id="donate-button-quick"></div>
+                        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                        <script>
+                        PayPal.Donation.Button({
+                        env:'production',
+                        hosted_button_id:'KZLD5J8DS6K6W',
+                        image: {
+                        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                        alt:'Donate with PayPal button',
+                        title:'PayPal - The safer, easier way to pay online!',
+                        }
+                        }).render('#donate-button-quick');
+                        </script>
+                        <a href="https://www.patreon.com/bePatron?u=34420953" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download</a>
+                        <?php if ($umsVersionBeta) { ?>
+                          <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+                        <?php } ?>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal">Download</button>
                 <a href="/download/" class="btn-watch-video"> Other downloads <i class="icofont-download"></i></a>
               </div>
               <div class="ad-container">
