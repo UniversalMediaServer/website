@@ -44,7 +44,7 @@
             <div class="col-lg-12">
               <h2>Patreon</h2>
               <p>There are benefits available via Patreon depending on how much you decide to contribute.</p>
-              <p>Donate to <a href="https://www.patreon.com/universalmediaserver">Universal Media Server on Patreon</a>.</p><br>
+              <p>Donate to <a href="https://www.patreon.com/bePatron?u=34420953">Universal Media Server on Patreon</a>.</p><br>
             </div>
           </div>
           <div class="row content">
