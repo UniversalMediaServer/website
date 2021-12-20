@@ -47,10 +47,21 @@
                           </script>
                         </p>
                         <p>
-                        <div style="width:11rem">
-                            <a class="patreon-button" color="primary" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank" rel="noopener noreferrer"><div tabindex="-1" class="sc-jNMdTA jLYHuC"><svg aria-label="Loading" viewBox="0 0 64 64" class="sc-hBEYos tJRfY"><circle cx="32" cy="32" r="32" class="sc-fodVxV ckHrzE"></circle><circle color="light" cx="32" cy="32" r="32" stroke-linecap="round" class="sc-fFubgz eezCAG"></circle></svg></div><div class="patreon-button-inner"><div class="sc-crrsfI ejVMUJ"><span class="sc-iqHYGH hKKQNb"><svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg></span></div><div class="sc-dOSReg Vdljc"></div>Become a patron</div></a>
-                          </div>
-
+                          <a class="patreon-button" color="primary" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank" rel="noopener noreferrer">
+                            <div class="patreon-button-inner">
+                              <div class="sc-crrsfI ejVMUJ" style="margin-right:0.5rem;">
+                                <span class="sc-iqHYGH hKKQNb" style="height:1rem;width:1rem">
+                                  <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg" style="height:1rem;width:1rem">
+                                    <g>
+                                      <circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle>
+                                      <rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect>
+                                    </g>
+                                  </svg>
+                                </span>
+                              </div>
+                              Become a patron
+                            </div>
+                          </a>
                         </p>
                       </div>
                       <div class="modal-footer">
