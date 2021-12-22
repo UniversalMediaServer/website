@@ -45,13 +45,13 @@
             document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.dmg";
           }
         }
-        document.getElementById("download-link").text = 'Download for macOS';
+        document.getElementById("download-link").text = 'Download <?php $umsVersion ?> for macOS';
         if (hasBeta) {
           document.getElementById("download-link-beta").text = 'Download beta for macOS';
         }
       } else if (OS === 'Windows') {
         document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe";
-        document.getElementById("download-link").text = 'Download for Windows';
+        document.getElementById("download-link").text = 'Download <?php $umsVersion ?> for Windows';
         if (hasBeta) {
           document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe";
           document.getElementById("download-link-beta").text = 'Download beta for Windows';
@@ -69,7 +69,7 @@
         }
 
         document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-" + defaultLinuxArchitecture + ".tgz";
-        document.getElementById("download-link").text = 'Download for Linux (' + defaultLinuxArchitecture + ')';
+        document.getElementById("download-link").text = 'Download <?php $umsVersion ?> for Linux (' + defaultLinuxArchitecture + ')';
         if (hasBeta) {
           document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-" + defaultLinuxArchitecture + ".tgz";
           document.getElementById("download-link-beta").text = 'Download beta for Linux (' + defaultLinuxArchitecture + ')';
