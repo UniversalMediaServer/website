@@ -30,22 +30,6 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p>This download is free but we accept your support by letting you pay what you think is fair.</p>
-                        <p>
-                          <div id="donate-button-quick"></div>
-                          <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-                          <script>
-                          PayPal.Donation.Button({
-                          env:'production',
-                          hosted_button_id:'KZLD5J8DS6K6W',
-                          image: {
-                          src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-                          alt:'Donate with PayPal button',
-                          title:'PayPal - The safer, easier way to pay online!',
-                          }
-                          }).render('#donate-button-quick');
-                          </script>
-                        </p>
                         <p>
                           <a class="patreon-button" color="primary" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank" rel="noopener noreferrer">
                             <div class="patreon-button-inner">
@@ -54,14 +38,15 @@
                                   <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg" style="height:1rem;width:1rem"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
                                 </span>
                               </div>
-                              Become a patron
+                              Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
                             </div>
                           </a>
                         </p>
+                        <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon">Patreon</a> first to reward our patrons. An older, public build can be downloaded below:</p>
                       </div>
                       <div class="modal-footer">
                         <a type="button" class="btn btn-secondary" href="/download/" class="btn-watch-video">All Downloads</a>
-                        <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download</a>
+                        <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download <?php echo $umsVersion; ?></a>
                         <?php if ($umsVersionBeta) { ?>
                           <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
                         <?php } ?>
