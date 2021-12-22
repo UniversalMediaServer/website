@@ -1,3 +1,5 @@
+<?php include 'includes/config.php'; ?>
+
 <footer id="footer">
   <div class="container footer-bottom clearfix">
     <div class="credits">
