@@ -1,4 +1,4 @@
-<?php include 'includes/config.php'; ?>
+<?php include 'config.php'; ?>
 
 <footer id="footer">
   <div class="container footer-bottom clearfix">
