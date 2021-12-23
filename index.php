@@ -32,12 +32,12 @@
                       <div class="modal-body">
                         <p>
                           <a class="patreon-button" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank">
-                            <!-- <div class="patreon-button-inner">
+                            <div class="patreon-button-inner">
                               <div style="margin-right:0.5rem;height:1rem;width:1rem">
                                 <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg" style="height:1rem;width:1rem"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
                               </div>
                               Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
-                            </div> -->
+                            </div>
                           </a>
                         </p>
                         <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon">Patreon</a> first to reward our patrons.</p>
