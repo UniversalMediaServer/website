@@ -40,6 +40,9 @@
                             </div>
                           </a>
                         </p>
+                        <p>
+                          <a type="button" class="btn btn-danger" href="https://www.patreon.com/bePatron?u=34420953">Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong></a>
+                        </p>
                         <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon">Patreon</a> first to reward our patrons.</p>
                         <p>An older, public build can be downloaded below:</p>
                       </div>
