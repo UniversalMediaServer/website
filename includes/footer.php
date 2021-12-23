@@ -16,7 +16,7 @@
 
 <!-- Vendor JS Files -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
