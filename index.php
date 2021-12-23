@@ -40,7 +40,7 @@
                         <p>An older, public build can be downloaded below:</p>
                       </div>
                       <div class="modal-footer">
-                        <a type="button" class="btn btn-light" href="/download/">All Downloads</a>
+                        <a type="button" class="btn btn-light mr-auto" href="/download/">All Downloads</a>
                         <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download <?php echo $umsVersion; ?></a>
                         <?php if ($umsVersionBeta) { ?>
                           <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
