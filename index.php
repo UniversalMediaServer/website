@@ -36,11 +36,11 @@
                             Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
                           </a>
                         </p>
-                        <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon">Patreon</a> first to reward our patrons.</p>
+                        <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon" target="_blank">Patreon</a> first to reward our patrons.</p>
                         <p>An older, public build can be downloaded below:</p>
                       </div>
                       <div class="modal-footer">
-                        <a type="button" class="btn btn-link" href="/download/">All Downloads</a>
+                        <a type="button" class="btn btn-light" href="/download/">All Downloads</a>
                         <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download <?php echo $umsVersion; ?></a>
                         <?php if ($umsVersionBeta) { ?>
                           <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
