@@ -31,18 +31,8 @@
                       </div>
                       <div class="modal-body">
                         <p>
-                          <a class="patreon-button" tabindex="0" type="button" href="https://www.patreon.com/bePatron?u=34420953" role="button" target="_blank">
-                            <div class="patreon-button-inner">
-                              <div style="margin-right:0.5rem;height:1rem;width:1rem">
-                                <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg" style="height:1rem;width:1rem"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
-                              </div>
-                              Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
-                            </div>
-                          </a>
-                        </p>
-                        <p>
                           <a type="button" class="btn btn-danger subscribe-button" href="https://www.patreon.com/bePatron?u=34420953">
-                            <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg" style="height:1rem;width:1rem;margin-right:0.5rem;"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+                            <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
                             Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
                           </a>
                         </p>
@@ -50,7 +40,7 @@
                         <p>An older, public build can be downloaded below:</p>
                       </div>
                       <div class="modal-footer">
-                        <a type="button" class="btn btn-secondary" href="/download/" class="btn-watch-video">All Downloads</a>
+                        <a type="button" class="btn btn-link" href="/download/">All Downloads</a>
                         <a type="button" class="btn btn-primary" href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download <?php echo $umsVersion; ?></a>
                         <?php if ($umsVersionBeta) { ?>
                           <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
