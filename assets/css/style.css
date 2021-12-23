@@ -90,6 +90,15 @@ h1, h2, h3, h4, h5, h6 {
   fill: #fff;
 }
 
+.subscribe-button {
+  background-color: #ff424d;
+  border-color: #ff424d;
+}
+
+.subscribe-button svg [data-fill] {
+  fill: #fff;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
