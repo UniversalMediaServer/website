@@ -49,26 +49,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.subscribe-button {
-  background-color: #ff424d;
-  border-color: #ff424d;
-}
-
-.subscribe-button:hover {
-  background-color: #f5000c;
-  border-color: #f5000c;
-}
-
-.subscribe-button svg {
-  height: 1rem;
-  width: 1rem;
-  margin-right: 0.4rem;
-}
-
-.subscribe-button svg [data-fill] {
-  fill: #fff;
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1022,4 +1002,16 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+/* Start custom code */
+
+.subscribe-button svg {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.4rem;
+}
+
+.subscribe-button svg [data-fill] {
+  fill: #fff;
 }
