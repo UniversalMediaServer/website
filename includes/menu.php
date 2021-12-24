@@ -15,7 +15,7 @@
           </a>
         </p>
         <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon" target="_blank">Patreon</a> first to reward our patrons.</p>
-        <p id="apple-run-link" class="hidden"><a href="https://support.apple.com/en-al/guide/mac-help/mh40616/mac" target="_blank">Please see this page from Apple if you are having trouble running the program.</a></p>
+        <p id="apple-run-link" class="d-none"><a href="https://support.apple.com/en-al/guide/mac-help/mh40616/mac" target="_blank">Please see this page from Apple if you are having trouble running the program.</a></p>
         <p>An older, public build can be downloaded below:</p>
       </div>
       <div class="modal-footer">

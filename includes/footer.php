@@ -36,7 +36,7 @@
       var hasBeta = Boolean(document.getElementById("download-link-beta"));
 
       if (OS === 'Mac OS') {
-        document.getElementById("apple-run-link").removeClass("hidden");
+        document.getElementById("apple-run-link").classList.remove("d-none");
 
         if (!version || parseFloat(version) < 10.15) {
           document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-pre10.15.dmg";
