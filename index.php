@@ -13,6 +13,9 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center home-page">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
