@@ -1,3 +1,5 @@
+<?php include 'config.php'; ?>
+
 <footer id="footer">
   <div class="container footer-bottom clearfix">
     <div class="credits">
@@ -14,7 +16,7 @@
 
 <!-- Vendor JS Files -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
@@ -34,6 +36,8 @@
       var hasBeta = Boolean(document.getElementById("download-link-beta"));
 
       if (OS === 'Mac OS') {
+        document.getElementById("apple-run-link").classList.remove("d-none");
+
         if (!version || parseFloat(version) < 10.15) {
           document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-pre10.15.dmg";
           if (hasBeta) {
@@ -45,13 +49,13 @@
             document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.dmg";
           }
         }
-        document.getElementById("download-link").text = 'Download for macOS';
+        document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for macOS';
         if (hasBeta) {
           document.getElementById("download-link-beta").text = 'Download beta for macOS';
         }
       } else if (OS === 'Windows') {
         document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe";
-        document.getElementById("download-link").text = 'Download for Windows';
+        document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Windows';
         if (hasBeta) {
           document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe";
           document.getElementById("download-link-beta").text = 'Download beta for Windows';
@@ -69,7 +73,7 @@
         }
 
         document.getElementById("download-link").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-" + defaultLinuxArchitecture + ".tgz";
-        document.getElementById("download-link").text = 'Download for Linux (' + defaultLinuxArchitecture + ')';
+        document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Linux (' + defaultLinuxArchitecture + ')';
         if (hasBeta) {
           document.getElementById("download-link-beta").href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-" + defaultLinuxArchitecture + ".tgz";
           document.getElementById("download-link-beta").text = 'Download beta for Linux (' + defaultLinuxArchitecture + ')';

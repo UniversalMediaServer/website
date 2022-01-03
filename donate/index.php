@@ -8,6 +8,9 @@
   <body>
     <?php include '../includes/menu.php'; ?>
     <section id="hero" class="d-flex align-items-center">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
@@ -43,8 +46,9 @@
           <div class="row content">
             <div class="col-lg-12">
               <h2>Patreon</h2>
-              <p>There are benefits available via Patreon depending on how much you decide to contribute.</p>
-              <p>Donate to <a href="https://www.patreon.com/universalmediaserver">Universal Media Server on Patreon</a>.</p><br>
+              <p>We release new versions exclusively to Patreon, and they become available elsewhere when newer versions are released.</p>
+              <p>There are also other benefits available via Patreon depending on how much you decide to contribute.</p>
+              <p>Donate to <a href="https://www.patreon.com/bePatron?u=34420953">Universal Media Server on Patreon</a>.</p><br>
             </div>
           </div>
           <div class="row content">

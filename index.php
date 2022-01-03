@@ -13,6 +13,9 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center home-page">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
@@ -20,11 +23,7 @@
               <h1>Universal Media Server</h1>
               <h2>Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!</h2>
               <div class="d-lg">
-                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
-                <?php if ($umsVersionBeta) { ?>
-                  <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
-                <?php } ?>
-                <a href="/download/" class="btn-watch-video"> Other downloads <i class="icofont-download"></i></a>
+                <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal"> Download Now <i class="icofont-download"></i></button>
               </div>
               <div class="ad-container">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -197,28 +196,32 @@
           </div>
           <div class="row">
             <?php
-              // Connect to database
-              $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
-              if (mysqli_connect_errno()) {
-                printf("Database connection failed. Not displaying News content: %s\n", mysqli_connect_error());
-              } else {
-                // Populate news
-                $query = "SELECT topic_id, topic_title, topic_time FROM cS8856_topics WHERE forum_id=3 AND topic_id != 378 ORDER BY topic_time DESC LIMIT 4";
-                if ($result = mysqli_query($link, $query)) {
-                  while ($list = mysqli_fetch_assoc($result)) {
-                    $date = date("Y/m/d", $list['topic_time']);
-                    echo '
-                      <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-                        <div class="news-item">
-                          <h4><a href="/forum/viewtopic.php?f=8&amp;t='.$list['topic_id'].'">'.$list['topic_title'].'</a></h4>
-                          <p>'.$date.'</p>
+              try {
+                // Connect to database
+                $link = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+                if (mysqli_connect_errno()) {
+                  printf("Database connection failed. Not displaying News content: %s\n", mysqli_connect_error());
+                } else {
+                  // Populate news
+                  $query = "SELECT topic_id, topic_title, topic_time FROM cS8856_topics WHERE forum_id=3 AND topic_id != 378 ORDER BY topic_time DESC LIMIT 4";
+                  if ($result = mysqli_query($link, $query)) {
+                    while ($list = mysqli_fetch_assoc($result)) {
+                      $date = date("Y/m/d", $list['topic_time']);
+                      echo '
+                        <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                          <div class="news-item">
+                            <h4><a href="/forum/viewtopic.php?f=8&amp;t='.$list['topic_id'].'">'.$list['topic_title'].'</a></h4>
+                            <p>'.$date.'</p>
+                          </div>
                         </div>
-                      </div>
-                    ';
+                      ';
+                    }
+                    mysqli_free_result($result);
                   }
-                  mysqli_free_result($result);
+                  mysqli_close($link);
                 }
-                mysqli_close($link);
+              } catch (Exception $e) {
+                echo 'Caught exception: ',  $e->getMessage(), "\n";
               }
             ?>
             <a href="/news/" class="btn-link mx-auto">See older news</a>
