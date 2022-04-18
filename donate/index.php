@@ -38,7 +38,7 @@
           <div class="row content">
             <div class="col-lg-12">
               <p>To quickly donate, please use the button above, otherwise there are more options below.</p>
-              <p>Your contribution goes towards offsetting the costs of our web servers - which serve over 240 million requests per month to 160,000 unique users - as well as provide reward and incentive to the development team to continue to improve our products.</p>
+              <p>Your contribution goes towards offsetting the costs of our web servers - which serve over 330 million requests per month to over 180,000 unique users - as well as provide reward and incentive to the development team to continue to improve our products.</p>
               <p>We support these donation methods in an attempt to make it easier for you to use something you are familiar with. If you would like to donate using another method, please get in touch with us.</p>
               <p><em>Thank</em> you in advance for any contribution.</p><br>
             </div>
