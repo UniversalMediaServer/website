@@ -16,9 +16,9 @@
           <div class="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" style="text-align: center;">
             <h1>Download</h1>
             <div class="d-lg">
-              <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe" class="btn-get-started scrollto" id="download-link">Download</a>
+              <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal"> Download Now <i class="icofont-download"></i></button>
               <?php if ($umsVersionBeta) { ?>
-                <a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+                <a href="https://www.fosshub.com/Universal-Media-Server.html" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
               <?php } ?>
             </div>
             <div class="ad-container">
