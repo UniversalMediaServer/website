@@ -53,12 +53,6 @@
           </div>
           <div class="row content">
             <div class="col-lg-12">
-              <h2>Open Collective</h2>
-              <p>Donate to <a href="https://opencollective.com/universalmediaserver">Universal Media Server on Open Collective</a>.</p><br>
-            </div>
-          </div>
-          <div class="row content">
-            <div class="col-lg-12">
               <h2 id="cryptocurrency">Cryptocurrency</h2>
               <p>We gladly accept donations in the following cryptocurrencies:</p>
               <p>Cardano (ADA): <code>addr1qx8g9nkln6zr4gs5f0r3ysnxgpqum4ekwnt5e77jaglzkensdvxfplz7lr8pg07kcvjpnrfcxzkht3hgmkr86vclmaxqjhja8c</code></p>
