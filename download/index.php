@@ -73,10 +73,12 @@
               <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
                 <h4>Disk images: (recommended for most users)</h4>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS 10.15+</a></p>
+                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS</a></p>
+                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM (Apple Silicon)</a></p>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS pre-10.15</a></p>
                 <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.dmg">Download <?php echo $umsVersionBeta; ?> for macOS 10.15+</a></p>
+                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.dmg">Download <?php echo $umsVersionBeta; ?> for macOS</a></p>
+                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-arm.dmg">Download <?php echo $umsVersionBeta; ?> for macOS ARM (Apple Silicon)</a></p>
                   <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg">Download <?php echo $umsVersionBeta; ?> for macOS pre-10.15</a></p>
                 <?php } ?>
                 <h4>Homebrew</h4>
