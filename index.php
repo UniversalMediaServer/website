@@ -108,7 +108,7 @@
             <!-- Tab panes -->
             <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
               <div role="tabpanel" class="tab-pane fade active show" id="feature-1">
-                <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/web-interface.gif)"></div></div>
+                <div data-aspect-ratio="16:9"><div style="background-image:url(images/ums-v11-resized-v2.gif)"></div></div>
                 <p>
                   Connect to your media using any web browser on any device for a feature-rich dive into dynamic pages for every media file you have.
                   Play directly from the browser, or send to your devices.
