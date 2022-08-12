@@ -80,7 +80,7 @@
                   <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg">Download <?php echo $umsVersionBeta; ?> for macOS pre-10.15</a></p>
                 <?php } ?>
                 <h4>Homebrew</h4>
-                <p>Run <a href="https://formulae.brew.sh/cask/universal-media-server">brew cask install universal-media-server</a></p>
+                <p>Run <a href="https://formulae.brew.sh/cask/universal-media-server">brew install --cask universal-media-server</a></p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="linux">
                 <h2>Linux tarballs</h2>
