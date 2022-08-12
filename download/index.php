@@ -61,11 +61,14 @@
             <!-- Tab panes -->
             <div class="feature-content tab-content col-lg-8 col-md-6 col-12 order-1 order-md-0">
               <div role="tabpanel" class="tab-pane fade active show" id="windows">
-                <h2>Windows installer<?php if ($umsVersionBeta) { echo 's'; } ?></h2>
+                <h2>Windows</h2>
+                <h4>Installer download</h4>
                 <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
                 <?php if ($umsVersionBeta) { ?>
                   <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
                 <?php } ?>
+                <h4>Chocolatey</h4>
+                <p>Run <a href="https://community.chocolatey.org/packages/ums">choco install ums</a></p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
