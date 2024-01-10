@@ -3,9 +3,10 @@
 <meta name="description" content="Stream your media to your devices, whether they are TVs, smartphones, gaming consoles, computers, audio receivers, and more!">
 <meta name="keywords" content="UMS, Universal Media Server" >
 
-<!-- Favicons -->
-<link href="/assets/img/favicon.ico" rel="icon">
-<link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="icon" type="image/png" href="/icon-256.png" sizes="256x256" />
+<link rel="icon" type="image/png" href="/icon-32.png" sizes="32x32" />
+<link rel="icon" href="/favicon.ico" sizes="16x16" />
+<link href="/apple-touch-icon.png" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">

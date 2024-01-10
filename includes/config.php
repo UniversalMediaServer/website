@@ -4,7 +4,7 @@
   $dbuser = "universalmediaserver";
   $dbpass = "yR88@S#5Y4xv";
 
-  $umsVersion        = "10.13.0";
-  $umsVersionPatreon = "10.14.1";
+  $umsVersion        = "13.8.1";
+  $umsVersionPatreon = "13.9.0";
   $umsVersionBeta    = "";
 ?>
