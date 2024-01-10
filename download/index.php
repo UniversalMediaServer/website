@@ -18,7 +18,7 @@
             <div class="d-lg">
               <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal"> Download Now <i class="icofont-download"></i></button>
               <?php if ($umsVersionBeta) { ?>
-                <a href="https://www.fosshub.com/Universal-Media-Server.html" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+                <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
               <?php } ?>
             </div>
             <div class="ad-container">
@@ -63,9 +63,9 @@
               <div role="tabpanel" class="tab-pane fade active show" id="windows">
                 <h2>Windows</h2>
                 <h4>Installer download</h4>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
                 <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
                 <?php } ?>
                 <h4>Chocolatey</h4>
                 <p>Run <a href="https://community.chocolatey.org/packages/ums">choco install ums</a></p>
@@ -73,30 +73,30 @@
               <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
                 <h4>Disk images: (recommended for most users)</h4>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM (Apple Silicon)</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS pre-10.15</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM (Apple Silicon)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS pre-10.15</a></p>
                 <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>.dmg">Download <?php echo $umsVersionBeta; ?> for macOS</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-arm.dmg">Download <?php echo $umsVersionBeta; ?> for macOS ARM (Apple Silicon)</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg">Download <?php echo $umsVersionBeta; ?> for macOS pre-10.15</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>.dmg">Download <?php echo $umsVersionBeta; ?> for macOS</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-arm.dmg">Download <?php echo $umsVersionBeta; ?> for macOS ARM (Apple Silicon)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg">Download <?php echo $umsVersionBeta; ?> for macOS pre-10.15</a></p>
                 <?php } ?>
                 <h4>Homebrew</h4>
                 <p>Run <a href="https://formulae.brew.sh/cask/universal-media-server">brew install --cask universal-media-server</a></p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="linux">
                 <h2>Linux tarballs</h2>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-x86_64.tgz">Download <?php echo $umsVersion; ?> for Linux (x86_64)</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-x86.tgz">Download <?php echo $umsVersion; ?> for Linux (x86)</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-armhf.tgz">Download <?php echo $umsVersion; ?> for Linux (armhf)</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-arm64.tgz">Download <?php echo $umsVersion; ?> for Linux (arm64)</a></p>
-                <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersion; ?>-armel.tgz">Download <?php echo $umsVersion; ?> for Linux (arm/armel)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-x86_64.tgz">Download <?php echo $umsVersion; ?> for Linux (x86_64)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-x86.tgz">Download <?php echo $umsVersion; ?> for Linux (x86)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-armhf.tgz">Download <?php echo $umsVersion; ?> for Linux (armhf)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-arm64.tgz">Download <?php echo $umsVersion; ?> for Linux (arm64)</a></p>
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-armel.tgz">Download <?php echo $umsVersion; ?> for Linux (arm/armel)</a></p>
                 <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-x86_64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86_64)</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-x86.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86)</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-armhf.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (armhf)</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-arm64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm64)</a></p>
-                  <p><a href="https://www.fosshub.com/Universal-Media-Server.html?dwl=UMS-<?php echo $umsVersionBeta; ?>-armel.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm/armel)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-x86_64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86_64)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-x86.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-armhf.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (armhf)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-arm64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm64)</a></p>
+                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-armel.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm/armel)</a></p>
                 <?php } ?>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="docker">
