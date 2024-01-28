@@ -1,3 +1,4 @@
+<?php include 'config.php'; ?>
 <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
