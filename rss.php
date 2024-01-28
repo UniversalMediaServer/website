@@ -23,20 +23,20 @@ $output = '<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
 		<title>Universal Media Server News</title>
-		<link>http://www.universalmediaserver.com/rss/</link>
+		<link>https://www.universalmediaserver.com/rss/</link>
 		<description>The official news feed for Universal Media Server</description>
 		<language>en</language>
 		<pubDate>'.$now.'</pubDate>
 		<lastBuildDate>'.$now.'</lastBuildDate>
-		<docs>http://www.universalmediaserver.com/</docs>
+		<docs>https://www.universalmediaserver.com/</docs>
 ';
 
 foreach ($return as $line) {
 	$output .= "
 		<item>
 			<title>".htmlentities($line['topic_title'])."</title>
-			<link>http://www.universalmediaserver.com/forum/viewtopic.php?f=8&amp;t=".$line['topic_id']."</link>
-			<description><a href=\"http://www.universalmediaserver.com/forum/viewtopic.php?f=8&amp;t=".$line['topic_id']."\">Click to see more</a></description>
+			<link>https://www.universalmediaserver.com/forum/viewtopic.php?f=8&amp;t=".$line['topic_id']."</link>
+			<description><a href=\"https://www.universalmediaserver.com/forum/viewtopic.php?f=8&amp;t=".$line['topic_id']."\">Click to see more</a></description>
 			<guid>".$line['topic_id']."</guid>
 			<pubDate>".date('D, d M Y H:i:s T', $line['topic_time'])."</pubDate>
 		</item>

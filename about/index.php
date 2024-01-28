@@ -61,16 +61,16 @@
           <div class="row content">
             <div class="col-lg-12">
               <h2>Accolades / Mirrors</h2>
-              <a href="http://www.majorgeeks.com/Universal_Media_Server__d7795.html" title="Universal Media Server on MajorGeeks">
+              <a href="https://www.majorgeeks.com/files/details/universal_media_server.html" title="Universal Media Server on MajorGeeks">
                 <img src="../images/mg_approved.gif" alt="Tested and approved by MajorGeeks">
               </a>
-              <a href="http://mac.majorgeeks.com/files/details/universal_media_server.html" title="Universal Media Server on Mac.MajorGeeks">
+              <a href="https://mac.majorgeeks.com/files/details/universal_media_server.html" title="Universal Media Server on Mac.MajorGeeks">
                 <img src="../images/mmgtested.gif" alt="Tested and approved by Mac.MajorGeeks" style="position:relative;top:-2px;">
               </a>
-              <a href="http://www.videohelp.com/tools/Universal-Media-Server" title="Universal Media Server on ViDEOHelp">
+              <a href="https://www.videohelp.com/software/Universal-Media-Server" title="Universal Media Server on ViDEOHelp">
                 <img src="../images/logo-videohelp.gif" alt="Universal Media Server on ViDEOHelp">
               </a>
-              <a href="http://www.softpedia.com/get/Network-Admin/Universal-Media-Server.shtml" title="Universal Media Server on Softpedia">
+              <a href="https://www.softpedia.com/get/Multimedia/Video/Other-VIDEO-Tools/Universal-Media-Server.shtml" title="Universal Media Server on Softpedia">
                 <img src="../images/softpedia_free_award_f.gif" alt="Universal Media Server on Softpedia" style="position:relative;top:-8px;">
               </a>
             </div>
@@ -162,7 +162,7 @@
               </p>
               <br>
               <p>
-                Contemplate supports us with <a href="http://www.contemplateltd.com/threadsafe/">ThreadSafe</a>, a tool for advanced static analysis for Java concurrency.<br>
+                Contemplate supports us with <a href="http://www.contemplateltd.com/threadsafe">ThreadSafe</a>, a tool for advanced static analysis for Java concurrency.<br>
                 <a href="http://www.contemplateltd.com" title="Contemplate">
                   <img src="../images/logo-contemplate.png" alt="Contemplate logo">
                 </a>
