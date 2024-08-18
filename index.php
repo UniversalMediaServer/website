@@ -228,6 +228,23 @@
           </div>
         </div>
       </section>
+      <section id="sponsors" class="sponsors section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Sponsors</h2>
+          </div>
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                <a href="https://architectureofsales.com/"><img alt="Architecture of Sales" src="images/logos/architecture-of-sales.webp"></a>
+              </p>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <a href="https://www.patreon.com/universalmediaserver" class="btn-link">Become a sponsor</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <?php include 'includes/footer.php'; ?>
   </body>
