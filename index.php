@@ -233,13 +233,13 @@
           <div class="section-title">
             <h2>Sponsors</h2>
           </div>
-          <div class="row content">
-            <div class="col-lg-6">
+          <div class="row content" style="text-align:center">
+            <div class="col-lg-12">
               <p>
-                <a href="https://architectureofsales.com/"><img alt="Architecture of Sales" src="images/logos/architecture-of-sales.webp"></a>
+                <a href="https://architectureofsales.com/"><img alt="Architecture of Sales" src="images/logos/architecture-of-sales.webp" style="width:200px;"></a>
               </p>
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
+            <div class="col-lg-12 pt-4 pt-lg-0" style="text-align:center">
               <a href="https://www.patreon.com/universalmediaserver" class="btn-link">Become a sponsor</a>
             </div>
           </div>
