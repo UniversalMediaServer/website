@@ -3,16 +3,16 @@
 
 	RewriteEngine On
 
-# Ensure HTTPS
-	RewriteCond %{HTTPS} off
-	RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Ensure www unless this is a Heroku review app
-	RewriteCond %{HTTP_HOST} !^www\.
+	# Make sure the address has https://www at the start unless this is a Heroku review app
+	RewriteCond %{SERVER_PORT} 80
 	RewriteCond %{REQUEST_URI} !^/plugins(.*)$
 	RewriteCond %{HTTP_HOST}   !(.*).herokuapp.com(.*)$
-	RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	RewriteRule ^(.*)$ https://www.universalmediaserver.com/$1 [R,L]
+
+	RewriteCond %{http_host} ^universalmediaserver.com [NC]
+	RewriteRule ^(.*)$        https://www.universalmediaserver.com/$1 [r=301,NC]
 
 	RewriteRule ^rss/$                       /rss.php [L,QSA]
 	RewriteRule ^styles/pms/imageset/(.*)$   https://www.universalmediaserver.com/forum/styles/pms/imageset/$1   [L,QSA]
+	RewriteRule ^faq/$                       https://support.universalmediaserver.com                            [L,QSA]
 </IfModule>
