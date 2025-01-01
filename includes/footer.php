@@ -98,7 +98,7 @@
       } else if (OS === 'Windows') {
         var architecture = '';
         if (CPU === 'amd64') {
-          architecture = '-x86-64';
+          // architecture = '-x86-64';
         }
         document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>" + architecture + ".exe";
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Windows';
