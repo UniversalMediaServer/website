@@ -75,20 +75,20 @@
 
       if (OS === 'macOS') {
         if (isAppleSilicon()) {
-          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-arm.dmg";
+          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-arm.dmg";
           if (hasBeta) {
-            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-arm.dmg";
+            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>-arm.dmg";
           }
         } else if (!version || parseFloat(version) < 10.15) {
           document.getElementById("apple-run-link").classList.remove("d-none");
-          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-pre10.15.dmg";
+          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-pre10.15.dmg";
           if (hasBeta) {
-            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg";
+            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg";
           }
         } else {
-          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>.dmg";
+          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>.dmg";
           if (hasBeta) {
-            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>.dmg";
+            document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>.dmg";
           }
         }
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for macOS';
@@ -96,14 +96,14 @@
           document.getElementById("download-link-beta").text = 'Download beta for macOS';
         }
       } else if (OS === 'Windows') {
-        var architecture = '';
+        var architecture = '-x86';
         if (CPU === 'amd64') {
           // architecture = '-x86-64';
         }
-        document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>" + architecture + ".exe";
+        document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>" + architecture + ".exe";
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Windows';
         if (hasBeta) {
-          document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>" + architecture + ".exe";
+          document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>" + architecture + ".exe";
           document.getElementById("download-link-beta").text = 'Download beta for Windows';
         }
       } else if (OS === 'Linux') {
@@ -117,10 +117,10 @@
           defaultLinuxArchitecture = 'armel';
         }
 
-        document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>-" + defaultLinuxArchitecture + ".tgz";
+        document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-" + defaultLinuxArchitecture + ".tgz";
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Linux (' + defaultLinuxArchitecture + ')';
         if (hasBeta) {
-          document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>-" + defaultLinuxArchitecture + ".tgz";
+          document.getElementById("download-link-beta").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-" + defaultLinuxArchitecture + ".tgz";
           document.getElementById("download-link-beta").text = 'Download beta for Linux (' + defaultLinuxArchitecture + ')';
         }
       }
