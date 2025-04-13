@@ -93,9 +93,9 @@
           document.getElementById("download-link-beta").text = 'Download beta for macOS';
         }
       } else if (OS === 'Windows') {
-        var architecture = '-x86';
-        if (CPU === 'amd64') {
-          // architecture = '-x86-64';
+        var architecture = '-x86_64';
+        if (CPU === 'ia32') {
+          architecture = '-x86';
         }
         document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>" + architecture + ".exe";
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for Windows';
@@ -112,6 +112,8 @@
           defaultLinuxArchitecture = 'armhf';
         } else if (CPU === 'arm') {
           defaultLinuxArchitecture = 'armel';
+        } else if (CPU === 'ia32') {
+          defaultLinuxArchitecture = 'x86';
         }
 
         document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-" + defaultLinuxArchitecture + ".tgz";
