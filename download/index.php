@@ -63,11 +63,11 @@
               <div role="tabpanel" class="tab-pane fade active show" id="windows">
                 <h2>Windows</h2>
                 <h4>Installer download</h4>
-                <!-- <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86_64.exe">Download <?php echo $umsVersion; ?> installer for Windows (x86_64)</a></p> -->
+                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86_64.exe">Download <?php echo $umsVersion; ?> installer for Windows (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
                 <?php if ($umsVersionBeta) { ?>
                   <!-- <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>-x86_64.exe.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows (x86_64)</a></p> -->
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>-x86.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
+                  <!-- <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>-x86.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p> -->
                 <?php } ?>
                 <h4>Chocolatey</h4>
                 <p>Run <a href="https://community.chocolatey.org/packages/ums">choco install ums</a></p>
