@@ -97,10 +97,7 @@
               <a class="btn mb-lg-3" href="#feature-3" aria-controls="feature-3" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="fas fa-chart-bar mr-2"></i>Instant browsing
               </a>
-              <a class="btn mb-lg-3" href="#feature-4" aria-controls="feature-4" data-toggle="pill" role="tab" aria-selected="false">
-                <i class="fas fa-code mr-2"></i>Live subtitles
-              </a>
-              <a class="btn mb-lg-3" href="#feature-5" aria-controls="feature-5" data-toggle="pill" role="tab" aria-selected="true">
+              <a class="btn mb-lg-3" href="#feature-4" aria-controls="feature-4" data-toggle="pill" role="tab" aria-selected="true">
                 <i class="fas fa-rocket mr-2"></i>Support for all files and networks
               </a>
             </div>
@@ -148,12 +145,6 @@
                 </p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="feature-4">
-                <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/pexels-porapak-apichodilok-346885.jpg)"></div></div>
-                <p>
-                  Even if your video has no subtitles, or it has them in the wrong language, just enable our Live Subtitles feature to download them on the fly. Coupled with our interface which supports 40+ languages, we have first-class international support.
-                </p>
-              </div>
-              <div role="tabpanel" class="tab-pane fade" id="feature-5">
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/files-networks.jpg)"></div></div>
                 <p>
                   We support passing your media to your devices untouched if they support it, otherwise we will transform it to suit your network, device, and language preferences. We also provide support for your physical media with the ability to directly access your disc drives and disc images.
