@@ -88,6 +88,7 @@
               </div>
               <div role="tabpanel" class="tab-pane fade" id="linux">
                 <h2>Linux</h2>
+                <h3>Downloads</h3>
                 <h4>Tarballs</h4>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.tgz">Download <?php echo $umsVersion; ?> for Linux (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86.tgz">Download <?php echo $umsVersion; ?> for Linux (x86)</a></p>
@@ -104,6 +105,9 @@
                 <h4>AppImage</h4>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.AppImage">Download <?php echo $umsVersion; ?> for AppImage (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.AppImage.zsync">Download <?php echo $umsVersion; ?> zsync file for AppImage (x86_64)</a></p>
+                <h3>Distro Repositories</h4>
+                
+                <p><a href="https://aur.archlinux.org/packages/ums">Arch Linux</a></p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="docker">
                 <h2>Docker (x86_64)</h2>
