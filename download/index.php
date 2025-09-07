@@ -17,8 +17,8 @@
             <h1>Download</h1>
             <div class="d-lg">
               <button class="btn-get-started scrollto" id="download-link" data-toggle="modal" data-target="#downloadModal"> Download Now <i class="icofont-download"></i></button>
-              <?php if ($umsVersionBeta) { ?>
-                <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
+              <?php if (isset($patreonDownloadLinkBeta)) { ?>
+                <a href="<?php echo $patreonDownloadLinkBeta; ?>" class="btn-download-beta scrollto" id="download-link-beta">Download pre-release</a>
               <?php } ?>
             </div>
             <div class="ad-container">
@@ -65,9 +65,9 @@
                 <h4>Installer download</h4>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86_64.exe">Download <?php echo $umsVersion; ?> installer for Windows (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
-                <?php if ($umsVersionBeta) { ?>
-                  <!-- <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>-x86_64.exe.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows (x86_64)</a></p> -->
-                  <!-- <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Windows-<?php echo $umsVersionBeta; ?>-x86.exe">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p> -->
+                <?php if (isset($patreonDownloadLinkBeta) && isset($umsVersionBeta)) { ?>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> installer for Windows (x86_64)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> installer for Windows</a></p>
                 <?php } ?>
                 <h4>Chocolatey</h4>
                 <p>Run <a href="https://community.chocolatey.org/packages/ums">choco install ums</a></p>
@@ -78,10 +78,10 @@
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM (Apple Silicon)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS pre-10.15 (x86_64)</a></p>
-                <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>.dmg">Download <?php echo $umsVersionBeta; ?> for macOS (x86_64)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>-arm.dmg">Download <?php echo $umsVersionBeta; ?> for macOS ARM (Apple Silicon)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-macOS-<?php echo $umsVersionBeta; ?>-pre10.15.dmg">Download <?php echo $umsVersionBeta; ?> for macOS pre-10.15 (x86_64)</a></p>
+                <?php if (isset($patreonDownloadLinkBeta) && isset($umsVersionBeta)) { ?>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for macOS (x86_64)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for macOS ARM (Apple Silicon)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for macOS pre-10.15 (x86_64)</a></p>
                 <?php } ?>
                 <h4>Homebrew</h4>
                 <p>Run <a href="https://formulae.brew.sh/cask/universal-media-server">brew install --cask universal-media-server</a></p>
@@ -95,12 +95,12 @@
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-armhf.tgz">Download <?php echo $umsVersion; ?> for Linux (armhf)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-arm64.tgz">Download <?php echo $umsVersion; ?> for Linux (arm64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-armel.tgz">Download <?php echo $umsVersion; ?> for Linux (arm/armel)</a></p>
-                <?php if ($umsVersionBeta) { ?>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-x86_64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86_64)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-x86.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (x86)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-armhf.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (armhf)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-arm64.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm64)</a></p>
-                  <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-Linux-<?php echo $umsVersionBeta; ?>-armel.tgz">Download <?php echo $umsVersionBeta; ?> for Linux (arm/armel)</a></p>
+                <?php if (isset($patreonDownloadLinkBeta) && isset($umsVersionBeta)) { ?>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (x86_64)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (x86)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (armhf)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (arm64)</a></p>
+                  <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (arm/armel)</a></p>
                 <?php } ?>
                 <h4>AppImage</h4>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.AppImage">Download <?php echo $umsVersion; ?> for AppImage (x86_64)</a></p>

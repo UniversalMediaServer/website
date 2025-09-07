@@ -15,6 +15,14 @@
             Subscribe for the latest download: <strong><?php echo $umsVersionPatreon; ?></strong>
           </a>
         </p>
+        <?php if (isset($umsVersionBeta)) { ?>
+          <p>
+            <a type="button" class="btn btn-info subscribe-button" href="<?php if (isset($patreonDownloadLinkBeta)) { echo $patreonDownloadLinkBeta; } ?>">
+              <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+              Subscribe for the latest pre-release: <strong><?php echo $umsVersionBeta; ?></strong>
+            </a>
+          </p>
+        <?php } ?>
         <p>Builds are released to <a href="https://www.patreon.com/bePatron?u=34420953" title="Universal Media Server on Patreon" target="_blank">Patreon</a> first to reward our patrons.</p>
         <p id="apple-run-link" class="d-none"><a href="https://support.apple.com/en-al/guide/mac-help/mh40616/mac" target="_blank">Having trouble launching the app?</a></p>
         <p>An older, public build can be downloaded below:</p>
@@ -22,9 +30,6 @@
       <div class="modal-footer">
         <a type="button" class="btn btn-light mr-auto" href="/download/">All Downloads</a>
         <a type="button" class="btn btn-secondary" href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-<?php echo $umsVersion; ?>.exe" id="download-link">Download <?php echo $umsVersion; ?></a>
-        <?php if ($umsVersionBeta) { ?>
-          <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersionBeta; ?>/UMS-<?php echo $umsVersionBeta; ?>.exe" class="btn-download-beta scrollto" id="download-link-beta">Download beta</a>
-        <?php } ?>
       </div>
     </div>
   </div>
