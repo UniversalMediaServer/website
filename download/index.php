@@ -114,7 +114,7 @@
                 <h3>Alpine Linux (Default, older)</h3>
                 <p>Run <a href="https://hub.docker.com/r/universalmediaserver/ums">docker pull universalmediaserver/ums</a></p>
                 <h3>Ubuntu (Newer, possibly more stable)</h3>
-                <p>Run <a href="https://hub.docker.com/r/universalmediaserver/ums">docker pull universalmediaserver/ums-ubuntu</a></p>
+                <p>Run <a href="https://hub.docker.com/r/universalmediaserver/ums-ubuntu">docker pull universalmediaserver/ums-ubuntu</a></p>
               </div>
             </div><!--//feature-content-->
           </div><!--//tabbed-area-->
