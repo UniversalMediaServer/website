@@ -84,7 +84,7 @@
           document.getElementById("apple-run-link").classList.remove("d-none");
           document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-pre10.15.dmg";
         } else {
-          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>.dmg";
+          document.getElementById("download-link").href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-x86_64.dmg";
         }
         document.getElementById("download-link").text = 'Download <?php echo $umsVersion ?> for macOS';
         if (hasBeta) {
