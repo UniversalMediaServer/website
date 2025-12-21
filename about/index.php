@@ -42,12 +42,12 @@
           <div class="row content">
             <div class="col-lg-6">
               <p>Universal Media Server is a free DLNA, UPnP and HTTP/S Media Server.</p>
-              <p>We support all major operating systems, with versions for Windows, Linux and macOS.</p>
-              <p>The program streams or transcodes many different media formats with little or no configuration.</p>
+              <p>We support all major operating systems, with versions for Windows, Linux and macOS, via direct download or package managers like Chocolatey, Homebrew, AppImage and Docker.</p>
+              <p>The program streams or transcodes many different media formats with little or no configuration, allowing you to view and manage your online and offline media on almost any device.</p>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
               <p>
-                It is powered by <a href="https://www.ffmpeg.org/" rel="nofollow">FFmpeg</a>, <a href="https://mediaarea.net/en/MediaInfo" rel="nofollow">MediaInfo</a>, <a href="https://www.opensubtitles.org/" rel="nofollow">OpenSubtitles</a>, <a href="https://crowdin.com/" rel="nofollow">Crowdin</a>, <a href="http://www.mplayerhq.hu/" rel="nofollow">MEncoder</a>, tsMuxeR, AviSynth, VLC and more, which combine to offer support for a wide range of media formats.
+                It is powered by <a href="https://www.ffmpeg.org/" rel="nofollow">FFmpeg</a>, <a href="https://mediaarea.net/en/MediaInfo" rel="nofollow">MediaInfo</a>, <a href="https://crowdin.com/" rel="nofollow">Crowdin</a>, <a href="http://www.mplayerhq.hu/" rel="nofollow">MEncoder</a>, tsMuxeR, AviSynth, VLC and more, which combine to offer support for a wide range of media formats.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@
           <div class="row content">
             <div class="col-lg-12">
               <h2>Device Support</h2>
-              <p>We support any device that supports DLNA/UPnP or HTTP, including future devices.</p>
+              <p>We support any device that supports DLNA/UPnP or HTTP/S, including future devices.</p>
               <p>Below is a partial list of devices that we explicitly support, which means that we have customized our support for them in order to make them work even better than they would be default.</p>
             </div>
           </div>
