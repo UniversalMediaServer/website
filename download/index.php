@@ -63,6 +63,10 @@
               <div role="tabpanel" class="tab-pane fade active show" id="windows">
                 <h2>Windows</h2>
                 <h4>Installer download</h4>
+                <a type="button" class="btn btn-primary subscribe-button" href="<?php echo $patreonDownloadLink; ?>">
+                  <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+                  Subscribe to download <strong><?php echo $umsVersionPatreon; ?></strong>
+                </a>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86_64.exe">Download <?php echo $umsVersion; ?> installer for Windows (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Windows-<?php echo $umsVersion; ?>-x86.exe">Download <?php echo $umsVersion; ?> installer for Windows</a></p>
                 <?php if (isset($patreonDownloadLinkBeta) && isset($umsVersionBeta)) { ?>
@@ -75,6 +79,10 @@
               <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
                 <h4>Disk images: (recommended for most users)</h4>
+                <a type="button" class="btn btn-primary subscribe-button" href="<?php echo $patreonDownloadLink; ?>">
+                  <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+                  Subscribe to download <strong><?php echo $umsVersionPatreon; ?></strong>
+                </a>
                 <p>
                   <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM</a><br>
                   For Macs sold from November 2020+
@@ -99,6 +107,10 @@
                 <h2>Linux</h2>
                 <h3>Downloads</h3>
                 <h4>Tarballs</h4>
+                <a type="button" class="btn btn-primary subscribe-button" href="<?php echo $patreonDownloadLink; ?>">
+                  <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+                  Subscribe to download <strong><?php echo $umsVersionPatreon; ?></strong>
+                </a>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.tgz">Download <?php echo $umsVersion; ?> for Linux (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86.tgz">Download <?php echo $umsVersion; ?> for Linux (x86)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-armhf.tgz">Download <?php echo $umsVersion; ?> for Linux (armhf)</a></p>
@@ -112,6 +124,10 @@
                   <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for Linux (arm/armel)</a></p>
                 <?php } ?>
                 <h4>AppImage</h4>
+                <a type="button" class="btn btn-primary subscribe-button" href="<?php echo $patreonDownloadLink; ?>">
+                  <svg viewBox="0 0 569 546" xmlns="http://www.w3.org/2000/svg"><g><circle cx="362.589996" cy="204.589996" data-fill="1" id="Oval" r="204.589996"></circle><rect data-fill="2" height="545.799988" id="Rectangle" width="100" x="0" y="0"></rect></g></svg>
+                  Subscribe to download <strong><?php echo $umsVersionPatreon; ?></strong>
+                </a>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.AppImage">Download <?php echo $umsVersion; ?> for AppImage (x86_64)</a></p>
                 <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-Linux-<?php echo $umsVersion; ?>-x86_64.AppImage.zsync">Download <?php echo $umsVersion; ?> zsync file for AppImage (x86_64)</a></p>
                 <h3>Distro Repositories</h4>
