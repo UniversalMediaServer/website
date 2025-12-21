@@ -75,9 +75,18 @@
               <div role="tabpanel" class="tab-pane fade" id="macos">
                 <h2>macOS</h2>
                 <h4>Disk images: (recommended for most users)</h4>
-                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>.dmg">Download <?php echo $umsVersion; ?> for macOS (x86_64)</a></p>
-                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM (Apple Silicon)</a></p>
-                <p><a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS pre-10.15 (x86_64)</a></p>
+                <p>
+                  <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-arm.dmg">Download <?php echo $umsVersion; ?> for macOS ARM</a><br>
+                  For Macs sold from November 2020+
+                </p>
+                <p>
+                  <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-x86_64.dmg">Download <?php echo $umsVersion; ?> for macOS x86_64</a><br>
+                  For Macs sold from June 2012 to October 2020
+                </p>
+                <p>
+                  <a href="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/<?php echo $umsVersion; ?>/UMS-macOS-<?php echo $umsVersion; ?>-pre10.15.dmg">Download <?php echo $umsVersion; ?> for macOS x86_64 pre-10.15</a><br>
+                  For Macs sold before June 2012
+                </p>
                 <?php if (isset($patreonDownloadLinkBeta) && isset($umsVersionBeta)) { ?>
                   <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for macOS (x86_64)</a></p>
                   <p><a href="<?php echo $patreonDownloadLinkBeta; ?>">Download <?php echo $umsVersionBeta; ?> pre-release for macOS ARM (Apple Silicon)</a></p>
