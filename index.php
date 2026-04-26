@@ -115,6 +115,8 @@
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/pexels-burst-374103.jpg)"></div></div>
                 <p>
                   We do not track <strong>any</strong> actions you take in the program. How many other media servers can claim that?
+                </p>
+                <p>
                   Your server is as secure as your home network, and all external requests are made via secure connections.
                 </p>
               </div>
@@ -129,7 +131,11 @@
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/dynamic-metadata.png)"></div></div>
                 <p>
                   Dynamic lookup of metadata for your media allows you to easily find related media.
+                </p>
+                <p>
                   Filter videos by actor, director, genre, year and more, and music by artist, genre, year and more.
+                </p>
+                <p>
                   We integrate with services like TMDB, Discogs, and MusicBrainz to dynamically display cover art, metadata, and sync with likes/dislikes for your videos and music.
                 </p>
               </div>
@@ -141,6 +147,8 @@
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/pexels-cottonbro-4065137.jpg)"></div></div>
                 <p>
                   Access your media instantly, with no waiting for scans to finish.
+                </p>
+                <p>
                   We have scanning for extra features too, but you still have access to your media in the meantime.
                 </p>
               </div>
