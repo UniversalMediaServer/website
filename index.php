@@ -89,7 +89,7 @@
                 <i class="fas fa-magic mr-2"></i>Huge selection of supported devices
               </a>
               <a class="btn mb-lg-3" href="#metadata" aria-controls="metadata" data-toggle="pill" role="tab" aria-selected="false">
-                <i class="fas fa-magic mr-2"></i>Dynamic metadata
+                <i class="fas fa-magic mr-2"></i>Dynamic metadata and integrations
               </a>
               <a class="btn mb-lg-3" href="#online-media" aria-controls="online-media" data-toggle="pill" role="tab" aria-selected="false">
                 <i class="fas fa-magic mr-2"></i>Online and streaming media
@@ -130,12 +130,12 @@
                 <p>
                   Dynamic lookup of metadata for your media allows you to easily find related media.
                   Filter videos by actor, director, genre, year and more, and music by artist, genre, year and more.
-                  We integrate with services like IMDb and MusicBrainz to dynamically display the correct covers for your videos and music.
+                  We integrate with services like TMDB, Discogs, and MusicBrainz to dynamically display cover art, metadata, and sync with likes/dislikes for your videos and music.
                 </p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="online-media">
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/online-media.png)"></div></div>
-                <p>Add and manage your online radio channels, podcasts and RSS feeds for all media types and view from any of your connected devices.</p>
+                <p>Add YouTube channels and manage your online radio channels, podcasts and RSS feeds for all media types and view from any of your connected devices.</p>
               </div>
               <div role="tabpanel" class="tab-pane fade" id="feature-3">
                 <div data-aspect-ratio="16:9"><div style="background-image:url(assets/img/pexels-cottonbro-4065137.jpg)"></div></div>
